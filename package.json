@@ -1,0 +1,24 @@
+{
+  "name": "@danielslucas/jsexpert1",
+  "version": "1.0.0",
+  "description": "- Acesse o [index](./public/index/index.html) para visualizar a lista de titulos - Acesse o [bandersnatch](./public/bandersnatch/index.html) para acessar o titulo base do projeto",
+  "main": "index.js",
+  "scripts": {
+    "assets": "npx http-server --cors -p 8081 assets/",
+    "dev": "npx http-server --cors -p 8080 public/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielSLucas/jsExpert01-Bandersnatch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielSLucas/jsExpert01-Bandersnatch/issues"
+  },
+  "homepage": "https://github.com/DanielSLucas/jsExpert01-Bandersnatch#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
